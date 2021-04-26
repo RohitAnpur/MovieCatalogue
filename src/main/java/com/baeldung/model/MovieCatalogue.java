@@ -6,8 +6,7 @@ public class MovieCatalogue{
 	private int movieIdentifier;
 	private String movieDirector; 
 	private double movieRating;
-	
-	
+		
 	public MovieCatalogue(String movieName, int movieIdentifier, String movieDirector, double movieRating) {
 		super();
 		this.movieName = movieName;
@@ -39,5 +38,4 @@ public class MovieCatalogue{
 	public void setMovieRating(double movieRating) {
 		this.movieRating = movieRating;
 	}
-
 }

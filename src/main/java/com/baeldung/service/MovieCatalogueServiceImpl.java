@@ -22,7 +22,6 @@ public class MovieCatalogueServiceImpl implements MovieCatalogueService{
 		movieDao= aMovieDao;
 	}
 	
-	
 	@Override
 	public List<MovieCatalogue> getAllMovies() {
 		return movieDao.getAllMovies();
